@@ -25,5 +25,5 @@ app.use("/games", gameRoutes);
 
 let port = process.env.PORT || 3000;
 app.listen(port, function(){
-    console.log("Gmaes are running on port 3000");
-})
+    console.log(`Retro Games are running on port ${port}`);
+});
